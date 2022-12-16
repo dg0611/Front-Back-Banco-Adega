@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Martian+Mono:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Cadastro de Produtos</title>
+  </head>
+  <style></style>
+  <body>
+    <header id="titulo">
+      <p>Cadastrar Produtos</p>
+    </header>
+    <section>
+      <form id="form">
+        <p>Código do Produto</p>
+        <input type="text" name="codProduto" id="codProduto" />
+        <p>Descrição</p>
+        <input type="text" name="descricao" id="descricao" />
+        <p>Quantidade</p>
+        <input type="text" name="quantidade" id="quaantidade" />
+        <p>Preço Unitário</p>
+        <input type="text" name="precoUnitario" id="precoUnitario" />
+        <p>Preço Total</p>
+        <input type="text" name="precoTotal" id="precoTotal" /><br /><br />
+        <input type="submit" value="Cadastrar" />
+        <input type="button" value="Consultar" />
+        <input type="button" value="Atualizar" />
+        <input type="button" value="Deletar" />
+      </form>
+    </section>
+
+    <section id="acao"></section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
